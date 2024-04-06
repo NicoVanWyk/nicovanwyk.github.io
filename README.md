@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://nicovanwyk.github.io/index.html">Index File</a>
+  <a href="https://nicovanwyk.github.io/index.html">Home Page</a>
 </h1>
 
 <!-- Short Description -->
