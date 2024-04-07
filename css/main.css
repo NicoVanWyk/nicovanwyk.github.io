@@ -399,6 +399,11 @@ body {
     margin-left: 30px;
 }
 
+.carousel_title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .carousel_hidden {
     display: none;
 }
