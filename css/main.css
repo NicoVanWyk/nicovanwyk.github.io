@@ -61,7 +61,7 @@
     .font_h3 {
         font-size: 27.65px;
     }
-    
+
     .font_h5 {
         font-size: 16px;
     }
@@ -382,15 +382,69 @@ body {
     display: none;
 }
 
-/* .flickity-page-dots {
-    background-color: var(--main);
-} */
+.flickity-page-dots .dot {
+    background-color: var(--main) !important;
+}
+
+.flickity-button:hover {
+    background: var(--main) !important;
+}
 
 /* --Portfolio CSS */
+#portfolio {
+    margin-bottom: 60px
+}
+
 .carousel_text {
     margin-left: 30px;
 }
 
 .carousel_hidden {
     display: none;
+}
+
+.carousel_hide {
+    display: inherit;
+}
+
+.carousel_links {
+    color: white !important;
+}
+
+.carousel_links:hover {
+    color: var(--mainSecondary) !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .carousel_hide {
+        display: none;
+    }
+}
+
+/* Contact Me */
+.contact_hide {
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact_hide {
+        display: inherit;
+    }
+}
+
+#contact {
+    text-align: center;
+
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+    #contact {
+        text-align: left;
+
+        padding-top: 10px;
+        padding-left: 30px;
+    }
 }
