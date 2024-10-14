@@ -453,3 +453,48 @@ body {
         padding-left: 30px;
     }
 }
+
+/* Statistics */
+#statistics {
+    text-align: center;
+
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+}
+
+#PersonalAccountStats {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.AccountName {
+    margin-bottom: 20px;
+}
+
+.StatsLanguages {
+    margin-right: 10px;
+}
+
+.StatsGithubAccount {
+    margin-left: 10px;
+}
+
+.StatsTrophies {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.StatsContributions {
+    width: 90%;
+}
+
+.stats_hide {
+    display: inline;
+}
+
+@media only screen and (max-width: 991px) {
+    .stats_hide {
+        display: none;
+    }
+}
